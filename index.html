@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#ffffff",
+            },
+          },
+        },
+      };
+    </script> -->
+    <style>
+      .font {
+        font-family: "Lato", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font">
+    <header>
+      <nav
+        class="flex justify-between items-center bg-[#F85559] md:mx-5 lg:mx-10 md:my-5 rounded-full md:px-5 lg:px-10 py-2 max-md:hidden"
+      >
+        <ul class="flex gap-2 text-[#ffff] text-[1rem] font-thin">
+          <li class="cursor-pointer"><a href="#"></a>Home</li>
+          <li class="cursor-pointer"><a href="#"></a>About us</li>
+          <li class="cursor-pointer"><a href="#"></a>Shop</li>
+          <li class="cursor-pointer"><a href="#"></a>All Fruits</li>
+        </ul>
+        <div
+          id="header-text"
+          class="flex gap-1 items-center md:text-[1.5rem] lg:text-[2rem] font-bold text-white"
+        >
+          <img class="h-10" src="images/logo.png" alt="" />
+          <h3>Fruit Burst</h3>
+        </div>
+        <label class="relative block">
+          <span class="sr-only">Search</span>
+          <span class="absolute inset-y-0 left-0 flex items-start pl-2">
+            <svg class="h-5 w-5 fill-slate-300" viewBox="0 0 20 20">
+              <!-- ... -->
+            </svg>
+          </span>
+          <input
+            class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border-0 py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm rounded-full"
+            placeholder="Search for anything..."
+            type="search"
+            name="search"
+          />
+        </label>
+      </nav>
+      <!-- mobile nab -->
+      <div class="navbar justify-center rounded-full sm:hidden">
+        <div class="navbar-start">
+          <img class="h-10" src="images/logo.png" alt="" />
+          <a class="">Fruit Burst</a>
+        </div>
+        <div class="navbar-end">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h7"
+                />
+              </svg>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a>Homepage</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>About</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
