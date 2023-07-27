@@ -33,6 +33,9 @@
       #slide4 {
         background-image: url("images/banner4.png");
       }
+      #team {
+        background-image: url("./images/banner1.png");
+      }
     </style>
   </head>
   <body class="font">
@@ -79,7 +82,7 @@
         </div>
       </div>
       <!-- slider -->
-      <div class="carousel mx-5 md:mx-10 align-middle text-center">
+      <div class="carousel mx-5 md:mx-10 align-middle text-center z-10">
         <div
           id="slide1"
           class="carousel-item relative w-full bg-cover bg-no-repeat h-[40vh] md:h-[50vh] lg:h-[70vh]"
@@ -201,6 +204,28 @@
           </div>
         </div>
       </div>
+      <div class="md:flex md:justify-center md:gap-3 md:text-center md:bg-white mx-[20%] md:mt-[-3rem] relative z-0 mb-10 hidden">
+        <div id="frout1">
+          <img src="./images/fruit1.png" alt="">
+          <p>Grave</p>
+        </div>
+        <div id="frout2">
+          <img src="./images/fruit2.png" alt="">
+          <p>orange</p>
+        </div>
+        <div id="frout3">
+          <img src="./images/fruit3.png" alt="">
+          <p>Mango</p>
+        </div>
+        <div id="frout4">
+          <img src="./images/fruit4.png" alt="">
+          <p>Strawberry</p>
+        </div>
+        <div id="frout5">
+          <img src="./images/fruit5.png" alt="">
+          <p>Mango</p>
+        </div>
+      </div>
     </header>
     <main>
       <!-- cards -->
@@ -306,7 +331,7 @@
                 <input type="checkbox" id="my_modal_1" class="modal-toggle" />
                 <div class="modal">
                   <div class="modal-box">
-                    <img class="mx-auto" src="images/fruit6.png" alt="" />
+                    <img class="mx-auto" src="./images/fruit6.png" alt="" />
                     <h3 class="font-bold text-lg">Red Dragon</h3>
                     <p class="py-1 px-1">
                       Professional employees are there for you to pick the most
@@ -361,7 +386,7 @@
             <div class="card w-52 h-80 bg-base-100 shadow-xl">
               <figure class="pt-0">
                 <img
-                  src="/images/fruit7.png"
+                  src="./images/fruit7.png"
                   alt="Fruits"
                   class="h-36 rounded-xl"
                 />
@@ -414,7 +439,7 @@
                 <input type="checkbox" id="my_modal_2" class="modal-toggle" />
                 <div class="modal">
                   <div class="modal-box">
-                    <img class="mx-auto" src="images/fruit7.png" alt="" />
+                    <img class="mx-auto" src="./images/fruit7.png" alt="" />
                     <h3 class="font-bold text-lg">Orange</h3>
                     <p class="py-1 px-1">
                       Professional employees are there for you to pick the most
@@ -469,7 +494,7 @@
             <div class="card w-52 h-80 bg-base-100 shadow-xl">
               <figure class="pt-0">
                 <img
-                  src="/images/fruit8.png"
+                  src="./images/fruit8.png"
                   alt="Fruits"
                   class="h-36 rounded-xl"
                 />
@@ -522,7 +547,7 @@
                 <input type="checkbox" id="my_modal_3" class="modal-toggle" />
                 <div class="modal">
                   <div class="modal-box">
-                    <img class="mx-auto" src="images/fruit8.png" alt="" />
+                    <img class="mx-auto" src="./images/fruit8.png" alt="" />
                     <h3 class="font-bold text-lg">Red Dragon</h3>
                     <p class="py-1 px-1">
                       Professional employees are there for you to pick the most
@@ -577,7 +602,7 @@
             <div class="card w-52 h-80 bg-base-100 shadow-xl">
               <figure class="pt-0">
                 <img
-                  src="/images/fruit9.png"
+                  src="./images/fruit9.png"
                   alt="Fruits"
                   class="h-36 rounded-xl"
                 />
@@ -631,7 +656,7 @@
                 <input type="checkbox" id="my_modal_4" class="modal-toggle" />
                 <div class="modal">
                   <div class="modal-box">
-                    <img class="mx-auto" src="images/fruit9.png" alt="" />
+                    <img class="mx-auto" src="./images/fruit9.png" alt="" />
                     <h3 class="font-bold text-lg">Banana</h3>
                     <p class="py-1 px-1">
                       Professional employees are there for you to pick the most
@@ -684,15 +709,118 @@
           </div>
         </div>
         <div
-          class="items-center p2 my-5 mx-[40%] md:mx[43%] lg:mx-[46%] bg-[#F85559] rounded-xl"
+          class="items-center my-5 mx-[40%] md:mx[43%] lg:mx-[46%] bg-[#F85559] rounded-xl text-center"
         >
-          <button class="p-2 text-center text-lg align-middle text-[#ffff]">
+          <button class="py-2 px-2 md:px-1 text-center text-base md:text-lg align-middle text-[#ffff]">
             Shop All
           </button>
         </div>
       </section>
+      <section>
+        <div id="team" class="h[40vh] bg-cover bg-black bg-opacity-50 py-10 text-center mx-5 md:mx-5 lg:mx-10">
+          <div>
+            <h3 class="test-[1.5rem] md:text-[2rem] font-extrabold text-white inline-block">Meet the team section</h3>
+            <p class="text-[0.3rem] md:text-[0.5rem] font-thin text-gray-50 pb-5">
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical <br> Latin literature from 45 BC, making
+              it over 2000 years old.
+            </p>
+          </div>
+          <div id="avatars" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 align-middle px-[15%] ">
+            <div id="profile1" class="mx-4">
+              <div class="avatar">
+                <div class="w-24 rounded-full">
+                  <img src="./images/member1.png" />
+                </div>
+              </div>
+              <div id="profile-content1">
+                <h3 class="text-white font-semibold md:text-base lg:text-lg">Awlad Hossain</3>
+                  <p class="text-gray-50 font-thin text-sm">Fruits Expert</p>
+                  <div id="scial-links-1" class="text-[#F85559]">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                  </div>
+              </div>
+            </div>
+            <div id="profile2"class="mx-4 ">
+              <div class="avatar">
+                <div class="w-24 rounded-full">
+                  <img src="./images/member2.png" />
+                </div>
+              </div>
+              <div id="profile-content2">
+                <h3 class="text-white font-semibold md:text-base lg:text-lg">Safia Chowdhury</3>
+                  <p class="text-gray-50 font-thin text-sm">Fruits Expert</p>
+                  <div id="scial-links-2"class="text-[#F85559]">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                  </div>
+              </div>
+            </div>
+            <div id="profile3" class="mx-4">
+              <div class="avatar">
+                <div class="w-24 rounded-full">
+                  <img src="./images/member3.png" />
+                </div>
+              </div>
+              <div id="profile-content3">
+                <h3 class="text-white font-semibold md:text-base lg:text-lg">Rokib Hossain</3>
+                  <p class="text-gray-50 font-thin text-sm">Fruits Expert</p>
+                  <div id="scial-links-3"class="text-[#F85559]">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                  </div>
+              </div>
+            </div>
+            <div id="profile4" class="mx-4">
+              <div class="avatar">
+              <div class="w-24 rounded-full">
+                <img src="./images/member4.png" />
+              </div>
+            </div>
+            <div id="profile-content4">
+              <h3 class="text-white font-semibold md:text-base lg:text-lg">Chaity</3>
+                <p class="text-gray-50 font-thin text-sm">Fruits Expert</p>
+                <div id="scial-links-4"class="text-[#F85559]">
+                  <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                  <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                  <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </div>
+            </div></div>
+          </div>
+        </div>
+      </section>
+
     </main>
-    <footer></footer>
+    <footer class="bg-black h-[50vh] md:h-[40vh] mt-10 items-center text-center py-10 ">
+      <div id="footer-text" class="flex gap-2 items-center text-center justify-center">
+        <img class="h-10" src="./images/logo.png" alt="">
+        <h1 class="text-white items-center text-[1.5rem] font-extrabold">Fruit Burst</h1>
+      </div>
+      <div id="footer-nav">
+        <nav>
+          <ul class="grid grid-cols-4 md:grid-cols-6 gap-2 md:px-20 text-gray-300 text-xs py-2">
+            <li ><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">All Fruits</a></li>
+            <li class="col-span-2 md:col-span-1"><a href="#">Support</a></li>
+            <li class="col-span-2 md:col-span-1"><a href="#">My Account</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="footer-sucial-links" class="text-white text-2xl flex justify-center gap-2 items-center text-center py-5">
+        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-apple"></ion-icon></a>
+      </div>
+    </footer>
 
     <script
       type="module"
